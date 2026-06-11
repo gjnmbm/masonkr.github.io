@@ -8,12 +8,13 @@ function on_load() {
     count_visitors();
 }
 
-function incrementCounter() {
-    counter++; // Increase counter by 1
-    document.getElementById("visitorCount").innerText = counter; // Display counter
-}
+
 function count_visitors() {
   var counter = 0; // Initialize counter
+  function incrementCounter() {
+    counter++; // Increase counter by 1
+    document.getElementById("visitorCount").innerText = counter; // Display counter
+    }
   window.onload = incrementCounter; // Call function on page load
 }
 
