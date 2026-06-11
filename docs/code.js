@@ -10,9 +10,13 @@ function on_load() {
 
 
 function count_visitors() {
-  var counter = 0; // Initialize counter
-  counter++; // Increase counter by 1
-  document.getElementById("visitorCount").innerText = "Visitor Count: " + counter; // Display counter
-  window.onload = count_visitors; // Call function on page load
+  let count = localStorage.getItem('page_view');
+    if (count) {
+      count = Number(count) + 1;
+    } else {
+      count = 1;
+    }
+    localStorage.setItem('page_view', count);
+    document.getElementById('count').innerText = count;
 }
 
