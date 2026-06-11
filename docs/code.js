@@ -4,7 +4,7 @@ function on_load() {
     //I do not know if this is how I should do this, but it minimizes repetetive HTML code
     //So, I guess this is fine
     document.getElementById("navigation").innerHTML = 
-    '<h4><a href="index.html">Home</a>&esmp;<a href="about.html">About Me</a>&esmp;<a href="exhibit.html">Projects</a></h4>';
+    '<h4><a href="index.html">Home</a>&emsp;<a href="about.html">About Me</a>&emsp;<a href="exhibit.html">Projects</a></h4>';
 }
 
 function incrementCounter() {
