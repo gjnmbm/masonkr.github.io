@@ -10,9 +10,18 @@
 	<body onload="on_load()">
         <nav id="navigation"></nav>
 		<h1>About Me</h1>
-		<p>My name is Kristina Mason and I'm in my 2nd year at Oregon State University.
+		<p>My name is Kristina Mason and I'm a student at Oregon State University.
 			<br>I'm majoring in Computer and Electrical Engineering.
 		</p>
+		<h2><a>My Resume: More about past jobs</a href="https://drive.google.com/file/d/18O7snGbc6tbg4gGir9e8MK8BKf70C1ap/view?usp=drive_link"></h2> 
+		<h2><a href="https://github.com/gjnmbm">My Github</a></h2> 
+		<h3><b>Contact Information:</b></h3>
+		<ul>
+			<p><b>Phone Number:</b> 503-719-2699</p>
+			<p><b>Email: </b><a>kristina.marie.mason@gmail.com</a href=mailto:kristina.marie.mason@gmail.com></p>
+			<p>LinkedIn: <a>www.linkedin.com/in/kristina-mason-140588190</a href="https://www.linkedin.com/in/kristina-mason-140588190"></p>
+			<p>Portfolio: You're here!</p>
+		</ul>
 		<h4>Coding Languages I Know:</h4>
 		<ul>
 			<li>Java</li>
@@ -20,14 +29,20 @@
 			<li>Javascript</li>
 			<li>C/C++</li>
 			<li>Git/Github</li>
+			<li>Python</li>
+			<li>PHP</li>
+			<li>Kotlin</li>
+			<li>SQL</li>
+			<li>LaTeX</li>
 		</ul>
-		<!--Put in squares or more visually appealing-->
-		<h2><a>My Resume</a></h2> 
-		<h2><a href="https://github.com/gjnmbm">My Github</a></h2> 
-		<h3><b>Contact Information:</b></h3>
+
+		<h4>Other Skills:</h4>
 		<ul>
-			<p><b>Phone Number:</b> (Phone Number Stand in)</p>
-			<p><b>Email:</b> (Email stand in)</p>
+			<li>Communication</li>
+			<li>Problem Solving</li>
+			<li>Teamwork</li>
 		</ul>
+		<!--Put in squares or make more visually appealing-->
+		
 	</body>
 </html>
