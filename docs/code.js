@@ -13,7 +13,7 @@ function count_visitors() {
   var counter = 0; // Initialize counter
   function incrementCounter() {
     counter++; // Increase counter by 1
-    document.getElementById("visitorCount").innerText = counter; // Display counter
+    document.getElementById("visitorCount").innerText = "Visitor Count: " + counter; // Display counter
     }
   //window.onload = incrementCounter; // Call function on page load
 }
