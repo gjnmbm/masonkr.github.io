@@ -5,7 +5,7 @@ function on_load() {
     //So, I guess this is fine
     document.getElementById("navigation").innerHTML = 
     '<h4><a href="index.html">Home</a>&emsp;<a href="about.html">About Me</a>&emsp;<a href="exhibit.html">Projects</a></h4>';
-    count_visitors();
+    incrementCounter();
 }
 
 
@@ -15,6 +15,6 @@ function count_visitors() {
     counter++; // Increase counter by 1
     document.getElementById("visitorCount").innerText = counter; // Display counter
     }
-  window.onload = incrementCounter; // Call function on page load
+  //window.onload = incrementCounter; // Call function on page load
 }
 
