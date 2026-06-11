@@ -41,6 +41,16 @@ I cannot move it and keep the site running-->
 			<p><b>LinkedIn:</b> <a>www.linkedin.com/in/kristina-mason-140588190</a href="https://www.linkedin.com/in/kristina-mason-140588190"></p>
 			<p><b>Portfolio:</b> You're here!</p>
 		</ul>
-		<p>Visitor Count: <span id="visitorCount"></span></p>
+		<p>Visitor Count: <span id="visitorCount">
+			fetch('counter.php')
+            .then(response => response.text())
+            .then(data => {
+                // Insert the number into the HTML
+                document.getElementById('visitorCount').innerText = data;
+            })
+            .catch(error => {
+                document.getElementById('visitorCount').innerText = "0";
+            });
+		</span></p>
 	</body>
 </html>

@@ -11,5 +11,5 @@ $count++;
 // Save the new count back to the file
 file_put_contents($file, $count);
 
-document.getElementById("visitorCount").innerText = $count;
+//document.getElementById("visitorCount").innerText = $count;
 ?>
