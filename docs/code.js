@@ -6,3 +6,13 @@ function on_load() {
     document.getElementById("navigation").innerHTML = 
     '<h4><a href="index.html">Home</a>&esmp;<a href="about.html">About Me</a>&esmp;<a href="exhibit.html">Projects</a></h4>';
 }
+
+function incrementCounter() {
+    counter++; // Increase counter by 1
+    document.getElementById("visitorCount").innerText = counter; // Display counter
+}
+function count_visitors() {
+  var counter = 0; // Initialize counter
+  window.onload = incrementCounter; // Call function on page load
+}
+
