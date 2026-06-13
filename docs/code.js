@@ -5,11 +5,11 @@ function on_load() {
     //So, I guess this is fine
     document.getElementById("navigation").innerHTML = 
     '<h4><a href="index.html">Home</a>&emsp;<a href="about.html">About Me</a>&emsp;<a href="exhibit.html">Projects</a></h4>';
-    count_visitors();
+    //count_visitors();
 }
 
-
-function count_visitors() {
+//count_visitors doesn't seem to work with github pages
+/*function count_visitors() {
   let count = localStorage.getItem('page_view');
     if (count) {
       count = Number(count) + 1;
@@ -18,5 +18,5 @@ function count_visitors() {
     }
     localStorage.setItem('page_view', count);
     document.getElementById('count').innerText = count;
-}
+}*/
 
